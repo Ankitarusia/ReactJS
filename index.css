@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body {
+  margin: 0;
+    
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ background-image: url("bg1.jpg");
+ background-size: cover;
+ background-attachment: fixed;
+ background-position: center;
+}
+input :hover{
+border:1px solid blue;
+}
+.btn{
+width: 250px;
+    height: 40px;
+    font-size: 16px;
+    letter-spacing: 7px;
+    background: #035b9c;
+    border: 1px;
+  color: white;}
+  .btn:hover{
+    background: rgb(247, 120, 62);
+  }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+i{
+  color: #e3f8fd;
+  font-size: 20px!important;
+}
+select{
+  color: #666 !important;
+}
+#DOB, #file{
+  color: #666;
+}
+.template{
+  width: 500px;
+  height: 655px;
+  text-align: center;
+  place-content: center;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  background: rgba(16, 16, 16, 0.36);
+  border: 1px solid rgba(204, 230, 251, 0.08);
+  border-radius: 24px;
+  box-shadow: 0px 4px 12px 5px #8080808f;
+}
+input,select{
+  border: 1px solid rgb(132, 132, 132);
+  margin: 15px;
+  font-size: 16px;
+  padding: 5px;
+  width: 250px;
+  height: 29px;
+  letter-spacing: 2px;
+  background: transparent;
+  font-family: Raleway, sans-serif;
+  outline: none;
+  color: rgb(255, 255, 255);
+}
+input:active, input:focus{
+  box-shadow: 0px 4px 12px 5px #8080808f;
+}
